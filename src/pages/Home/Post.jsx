@@ -7,6 +7,16 @@ import { PostOptionContainer } from "./components/PostComonents";
 function Post() {
     return (
         <div className="post-main-container">
+             <div className="clicked-post-option-container">
+            
+            <div><button className="first-button"><span className="text-color-red">Report</span></button></div>
+            <div><button><span className="text-color-red">Unfollow</span></button></div>
+            <div><button><Link>Go to post</Link></button></div>
+            <div><button><span>Share to</span></button></div>
+            <div><button><span>Copy link</span></button></div>
+            <div><button><span>About this account</span></button></div>
+            <div><button className="last-button"><span>Cancel</span></button></div>
+        </div>
             <div className="post-header-container">
                 <div className="post-header-left-side">
                     <div className="story-pic-border">
@@ -23,7 +33,7 @@ function Post() {
                 </div>
             </div>
             <div className="post-image-container">
-                <img className="post-image" src="post1.jpg" />
+                <img className="post-image" src="post2.jpg" />
             </div>
             <div className="post-operations-container HORI-PAD-16">
                 <div className="post-operations-left-side">

@@ -161,6 +161,10 @@
     padding-bottom: 20%;
 }
 
+.post-main-container {
+    position: relative;
+}
+
 .post-header-container {
     width: 100%;
     height: 55px;
@@ -181,7 +185,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
 }
 
 .clicked-post-option-container {
@@ -193,6 +196,7 @@
     width: 80%;
     left: 10%;
     right: 10%;
+    top: 10%;
     justify-content: space-between;
     row-gap: 1px;
 }
@@ -208,6 +212,7 @@
     height: 100%;
     background-color: rgb(39, 38, 38);
     font-size: 15px;
+    font-weight: bold;
 }
 
 .clicked-post-option-container > div > .first-button {

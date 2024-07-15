@@ -62,7 +62,14 @@ html, body, #root {
   border: 1px solid rgb(44, 44, 44);
 }
 
-
 .display-none {
   display: none;
+}
+
+.text-color-red {
+  color: rgb(237, 73, 86);
+}
+
+a {
+  text-decoration: none;
 }
